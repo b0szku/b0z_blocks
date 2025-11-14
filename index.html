@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black & White Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="starfield-canvas"></canvas>
+    <div class="game-container">
+        <h1>B0Z</h1>
+        <canvas id="tetris-board"></canvas>
+        <div class="ui">
+            <div class="score-container">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+            <div class="level-container">
+                <p>Level: <span id="level">1</span></p>
+            </div>
+            <button id="start-button">Start Game</button>
+        </div>
+        <div id="game-over" class="hidden">
+            <p>Game Over</p>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
